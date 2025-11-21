@@ -290,6 +290,7 @@ Investor Withdrawal:
 - **LogRocket** - Session replay (frontend)
 - **CloudWatch** - AWS infrastructure monitoring
 - **Datadog** - Full-stack observability (optional)
+- **PostHog** (optional)
 
 ### Security
 - **SSL/TLS** - HTTPS everywhere

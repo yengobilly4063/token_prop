@@ -91,8 +91,8 @@ GET    /api/v1/kyc/accredited
 ```typescript
 GET    /api/v1/properties
 GET    /api/v1/properties/:id
-POST   /api/v1/properties          // Property Manager only
-PUT    /api/v1/properties/:id      // Property Manager only
+POST   /api/v1/properties          // Admin/Property Manager only
+PUT    /api/v1/properties/:id      // Admin/Property Manager only
 DELETE /api/v1/properties/:id      // Admin only
 POST   /api/v1/properties/:id/documents
 GET    /api/v1/properties/:id/documents

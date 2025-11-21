@@ -15,7 +15,7 @@
                            v
               +------------------------+
               |   Backend (NestJS)     |
-              |   - AWS ECS/EC2        |
+              |   - Renbder            |
               +------------------------+
                      |           |
           +----------+           +----------+
@@ -23,7 +23,7 @@
           v                                v
   +---------------+              +-------------------+
   |  PostgreSQL   |              |  Blockchain       |
-  |  - AWS RDS    |              |  - Polygon/Base   |
+  |  - Render     |              |  - Polygon/Base   |
   +---------------+              +-------------------+
           |
           v
@@ -49,7 +49,7 @@
 **Core Modules:**
 ```
 AuthModule       → Session management, authentication
-KYCModule        → Sumsub integration, identity verification
+KYCModule        → Sumsub/Verrif integration, identity verification
 PropertyModule   → Property lifecycle, CRUD operations
 TokenModule      → Minting, burning, supply management
 MarketplaceModule → Order book, matching engine

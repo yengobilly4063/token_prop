@@ -163,7 +163,7 @@ GET    /api/v1/marketplace/price/:tokenId
 ```typescript
 GET    /api/v1/dividends/property/:propertyId
 POST   /api/v1/dividends/calculate/:propertyId  // Admin only
-POST   /api/v1/dividends/distribute/:id         // Admin only
+POST   /api/v1/dividends/distribute/:id         // Admin only(monthly/quaterly)
 GET    /api/v1/dividends/investor/:userId
 ```
 

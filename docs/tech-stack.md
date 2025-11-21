@@ -189,7 +189,7 @@ Backend Architecture:
 ### Web3 Integration
 - **wagmi** - React hooks for Ethereum
 - **viem** - TypeScript Ethereum library
-- **RainbowKit** - Wallet connection UI
+- **RainbowKit/ConnectWallet** - Wallet connection UI
 
 ### Frontend Pages/Dashboards
 
@@ -231,10 +231,10 @@ Application Structure:
 ## Payment Infrastructure
 
 ### Fiat Payments
-**Stripe**
+**Stripe/Moonpay**
 - Rent payments from tenants
 - Payment links (one-time use)
-- Webhook integration for payment confirmation
+- Webhook/(FE-BE onSuccess confirmation) integration for payment confirmation
 - PCI-compliant
 
 ### Fiat ↔ Crypto Bridge
@@ -345,7 +345,7 @@ Investor Withdrawal:
 - **ComplyAdvantage** - AML screening (optional)
 
 ### Communication
-- **SendGrid** or **AWS SES** - Transactional emails
+- **MailSender** or **SendGrid** or **AWS SES** - Transactional emails
 - **Twilio** - SMS notifications (optional)
 
 ### Analytics
